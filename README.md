@@ -17,15 +17,23 @@ In progress :)
 * Python 3.x
 ### Installation
 1. Get your own access token from [Cooper Hewitt](https://www.cooperhewitt.org/)
-2. Add `.env` file to root and paste access token as a string like below
-``` ACCESS_TOKEN = <your access token>```
-3. Install python modules
-```pip3 install -r requirements.txt```
+2. Add `.env` file to root and paste access token as a string like below<br />
+``` 
+ACCESS_TOKEN = <your access token>
+```
+3. Install python modules<br />
+```
+pip3 install -r requirements.txt
+```
 ### Usage
-4. Run Flask web application
-```python3 app.py```
-5. Run results only in terminal (no picture)
-```python3 hewitt_images.py```
+4. Run Flask web application<br />
+```
+python3 app.py
+```
+5. Run results only in terminal (no picture)<br />
+```
+python3 hewitt_images.py
+```
 
 ## Demos
 ![example1](./examples/example.png)
