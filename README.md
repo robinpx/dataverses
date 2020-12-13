@@ -35,9 +35,8 @@ python3 app.py
 python3 hewitt_images.py
 ```
 
-## Demos
+## Demo
 ![example1](./examples/example.png)
-![example2](./examples/example2.png)
 
 ## Acknowledgements 
 * [Dominant colors in an image using k-means clustering](https://buzzrobot.com/dominant-colors-in-an-image-using-k-means-clustering-3c7af4622036)
