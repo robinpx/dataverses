@@ -1,0 +1,160 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:'Helvetica Neue', sans-serif;
+    font-size:calc(12px + 1vmin);
+    line-height:150%;
+    background:white;
+    color:black;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#container {
+    width:90%;
+    margin:3em auto;
+}
+
+h1 {
+    font-size:1.2em;
+}
+
+h2 { 
+    line-height:150%;
+    font-size:2.5em;
+    font-weight:500;
+}
+
+.loading {
+    animation:loading 1s infinite;
+}
+
+
+@keyframes loading {
+    from {
+        opacity:0;
+    }
+    top {
+        opacity:1;
+    }
+}
+
+/* CONTENT */
+
+#right-title {
+    float:right;
+}
+
+#content {
+    margin-top:2em;
+}
+
+.block {
+    display:inline-block;
+    vertical-align:top;
+}
+
+#top-block {
+    display:block;
+    width:100%;
+    margin:2.5em 0em;
+}
+
+#left-block {
+    width:auto;
+    padding-bottom:2em;
+    margin-right:3.5em;
+}
+
+#left-block img {
+    max-width:100%;
+}
+
+#right-block {
+    width:auto;
+    font-size:1.5em;
+    line-height:150%;
+}
+
+#right-block div {
+    text-align:left;
+}
+
+#right-block p {
+    text-align:left;
+}
+
+#histogram {
+    margin:2em 0em;
+    height:3vh;
+    font-size:0px;
+    line-height:0;
+    width:100%;
+}
+
+.hist-block {
+    width:calc(100% / 5);
+    height:100%;
+    background:white;
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+
+/* FOOTER */
+
+footer {
+    border-top:5px solid black;
+    margin-top:2.5em;
+    text-align:left;
+    padding-top:2em;
+}
+
+footer #again {
+    display:inline-block;
+    padding:0.7em 1em;
+    border:2px solid black;
+}
+
+footer div {
+    margin-bottom:1.5em;
+}
+
+#again {
+    float:right;
+}
+
+@media screen and (max-width: 780px) {
+    #container {
+        width:calc(100% - 6%);
+        margin-left:3%;
+        margin-right:3%;
+    }
+
+    .block {
+        display:block;
+    }
+
+    #contents {
+        margin-top:8em;
+    }
+
+    #again {
+        float:none;
+    }
+
+    #left-block {
+      margin:0;
+    }
+
+    #right-block {
+        width:auto;
+    }
+}

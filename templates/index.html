@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>dataverses</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}"/>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+</head>
+<body>
+    <div id='container'>
+        <header>
+            <h1 id='right-title'><a href='/'>dataverses</a></h2>
+            <h1 id='left-title' class='loading'>writing...</h2>
+        </header>
+        <div id='content'>
+            <div id='histogram'>
+                <div class='hist-block'></div>
+                <div class='hist-block'></div>
+                <div class='hist-block'></div>
+                <div class='hist-block'></div>
+                <div class='hist-block'></div>
+            </div>
+            <div class='block' id='top-block'></div>
+            <div class='block' id='left-block'></div>
+            <div class='block' id='right-block'></div>
+        </div>
+        <footer style='display:none;'>
+            <div id='again'><a href='/'>generate me another poem</a></div>
+            <div id='desc'>an app that creates fun poems about design and color</div>
+            <div id='github'><a href="https://github.com/robinpx">github</a></div>
+        </footer>
+    </div>
+</body>
+
+</DOCTYPE>
