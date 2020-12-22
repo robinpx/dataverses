@@ -1,9 +1,6 @@
 # cooper-hewitt-design
-**dataverses** is a Python web application that creates fun, nonsensical poems with scraped data from Cooper Hewitt's graphic design catalogue.
+**dataverses** is a Python web application that creates fun, nonsensical poems with scraped data from Cooper Hewitt's graphic design catalogue.<br />
 Inspired by Gertrude Stein's Yet Dish.
-
-## Live Demo
-In progress :)
 
 ## Built With
 * [Flask](https://flask-doc.readthedocs.io/en/latest/)
